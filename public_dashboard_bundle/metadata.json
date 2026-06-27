@@ -1,6 +1,6 @@
 {
   "bundle_schema_version": 1,
-  "generated_at_utc": "2026-06-27T02:50:35+00:00",
+  "generated_at_utc": "2026-06-27T03:00:25+00:00",
   "latest_run_id": "live_weather_province_current_20260627_001701",
   "description": "Public-safe dashboard data bundle for wildfire ignition-risk dashboard.",
   "public_safety_notes": [
@@ -22,9 +22,9 @@
     {
       "source": "results/validation/prospective_validation_log.csv",
       "output": "data/prospective_validation_log.csv",
-      "bytes": 25996,
-      "sha256": "5f83058524f3ba34230fc845224983715a665d60a91172fd9ebdc975c74e52c4",
-      "rows": 77,
+      "bytes": 27979,
+      "sha256": "dc6318a2fa6883090f1d67a25a4d6738fbb421082c355d862d47d7292f40865a",
+      "rows": 83,
       "columns": [
         "fire_id",
         "fire_start_utc",
@@ -57,9 +57,9 @@
     {
       "source": "data/validation/alberta_activefires_current.csv",
       "output": "data/active_fires.csv",
-      "bytes": 32025,
-      "sha256": "4c374a284f0a14ff2eefcb6b8a0fab3ef2584cf8a3a69cbc3028003e87107d0c",
-      "rows": 366,
+      "bytes": 34725,
+      "sha256": "bdc2d9239e16c46a996806da9d8aa92927f2c8714671ed0e80ddef888911a4ee",
+      "rows": 397,
       "columns": [
         "Agency",
         "Fire_Name",
