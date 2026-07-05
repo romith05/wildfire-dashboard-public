@@ -1,7 +1,7 @@
 {
   "bundle_schema_version": 1,
-  "generated_at_utc": "2026-07-05T06:29:54+00:00",
-  "latest_run_id": "live_weather_province_current_20260705_061701",
+  "generated_at_utc": "2026-07-05T09:30:58+00:00",
+  "latest_run_id": "live_weather_province_current_20260705_091701",
   "description": "Public-safe dashboard data bundle for wildfire ignition-risk dashboard.",
   "public_safety_notes": [
     "Raw rasters are not exported.",
@@ -15,16 +15,16 @@
       "source": "results/validation/latest_prediction_run.txt",
       "output": "latest_prediction_run.txt",
       "bytes": 46,
-      "sha256": "2082fa9c89d2d091a6711dc788c3d258375786c2001df86fc3a63b13da9c20f2",
+      "sha256": "873d8480e34deb8362e5e70d9dc3b88ac8fa6cd9bbf92e859ffcecf066530601",
       "rows": null,
       "columns": null
     },
     {
       "source": "results/validation/prospective_validation_log.csv",
       "output": "data/prospective_validation_log.csv",
-      "bytes": 37856,
-      "sha256": "0564d14b3e7aefcb27e8bb30639c8555886f4e4b74b4d4d83154bc77046dda90",
-      "rows": 113,
+      "bytes": 38182,
+      "sha256": "aee978ce462ea07c1daae79b6337c9d876e3d87667d79e008615e18a330419b4",
+      "rows": 114,
       "columns": [
         "fire_id",
         "fire_start_utc",
@@ -57,9 +57,9 @@
     {
       "source": "data/validation/alberta_activefires_current.csv",
       "output": "data/active_fires.csv",
-      "bytes": 68284,
-      "sha256": "82de854b894242ff6099dc85e88ccee302e1f2d933bb9c74466bc41fcfc3b4a1",
-      "rows": 793,
+      "bytes": 68555,
+      "sha256": "6f5f839055cb19c8c9fec4e49d8ccef7afb7c167f999e3273bf1662fa1234bdd",
+      "rows": 796,
       "columns": [
         "Agency",
         "Fire_Name",
@@ -142,11 +142,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_b_candidates.csv",
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_b_candidates.csv",
       "output": "runs/latest/model_b_candidates.csv",
-      "bytes": 68240,
-      "sha256": "793cd900adf4158224c2067972867501e944d974ce664230960d0b62dab5f8ae",
-      "rows": 387,
+      "bytes": 49536,
+      "sha256": "0a8d78ab5927cbadb49dff7783cf4f83c84e7322e8dfdf952a6f83edfa1e25fe",
+      "rows": 281,
       "columns": [
         "candidate_id",
         "patch_id",
@@ -166,11 +166,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_b_candidates.csv",
-      "output": "runs/live_weather_province_current_20260705_061701/model_b_candidates.csv",
-      "bytes": 68240,
-      "sha256": "793cd900adf4158224c2067972867501e944d974ce664230960d0b62dab5f8ae",
-      "rows": 387,
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_b_candidates.csv",
+      "output": "runs/live_weather_province_current_20260705_091701/model_b_candidates.csv",
+      "bytes": 49536,
+      "sha256": "0a8d78ab5927cbadb49dff7783cf4f83c84e7322e8dfdf952a6f83edfa1e25fe",
+      "rows": 281,
       "columns": [
         "candidate_id",
         "patch_id",
@@ -190,11 +190,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_b_scores.csv",
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_b_scores.csv",
       "output": "runs/latest/model_b_scores.csv",
-      "bytes": 56146,
-      "sha256": "83402402e16e7eb4806261050887f978611c59c830b6393cfa7cf133712d5d57",
-      "rows": 691,
+      "bytes": 55903,
+      "sha256": "0f67708912d76217d4c6f17a229474f49d2ca64aacd6a7339676e99bbb61b548",
+      "rows": 688,
       "columns": [
         "patch_id",
         "status",
@@ -211,11 +211,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_b_scores.csv",
-      "output": "runs/live_weather_province_current_20260705_061701/model_b_scores.csv",
-      "bytes": 56146,
-      "sha256": "83402402e16e7eb4806261050887f978611c59c830b6393cfa7cf133712d5d57",
-      "rows": 691,
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_b_scores.csv",
+      "output": "runs/live_weather_province_current_20260705_091701/model_b_scores.csv",
+      "bytes": 55903,
+      "sha256": "0f67708912d76217d4c6f17a229474f49d2ca64aacd6a7339676e99bbb61b548",
+      "rows": 688,
       "columns": [
         "patch_id",
         "status",
@@ -232,11 +232,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_a_predictions.csv",
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_a_predictions.csv",
       "output": "runs/latest/model_a_predictions.csv",
-      "bytes": 186556,
-      "sha256": "3cb712246d9d0e647794ce2aa2fe10bd398e9ed62c6195902d072a1a801907f6",
-      "rows": 387,
+      "bytes": 135508,
+      "sha256": "484248e105df8fe88703da2449608e6b719f5050d5c3057815cfa54521f47b4d",
+      "rows": 281,
       "columns": [
         "candidate_id",
         "coarse_patch_id",
@@ -268,11 +268,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_a_predictions.csv",
-      "output": "runs/live_weather_province_current_20260705_061701/model_a_predictions.csv",
-      "bytes": 186556,
-      "sha256": "3cb712246d9d0e647794ce2aa2fe10bd398e9ed62c6195902d072a1a801907f6",
-      "rows": 387,
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_a_predictions.csv",
+      "output": "runs/live_weather_province_current_20260705_091701/model_a_predictions.csv",
+      "bytes": 135508,
+      "sha256": "484248e105df8fe88703da2449608e6b719f5050d5c3057815cfa54521f47b4d",
+      "rows": 281,
       "columns": [
         "candidate_id",
         "coarse_patch_id",
@@ -304,11 +304,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_a_candidate_cells.geojson",
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_a_candidate_cells.geojson",
       "output": "runs/latest/model_a_candidate_cells.geojson",
-      "bytes": 278426,
-      "sha256": "ef9e0732046cba41d6dd654b5c99534adb12f9f64c5ea9eab03ee07fb7397e68",
-      "rows": 387,
+      "bytes": 202138,
+      "sha256": "44937d6691840214a1b578f76d1f4251fb01ef19580cd7c52fd346afc3308dd4",
+      "rows": 281,
       "columns": [
         "candidate_id",
         "cell_binary_tif_path",
@@ -323,11 +323,11 @@
       ]
     },
     {
-      "source": "results/runs/live_weather_province_current_20260705_061701/model_a_candidate_cells.geojson",
-      "output": "runs/live_weather_province_current_20260705_061701/model_a_candidate_cells.geojson",
-      "bytes": 278426,
-      "sha256": "ef9e0732046cba41d6dd654b5c99534adb12f9f64c5ea9eab03ee07fb7397e68",
-      "rows": 387,
+      "source": "results/runs/live_weather_province_current_20260705_091701/model_a_candidate_cells.geojson",
+      "output": "runs/live_weather_province_current_20260705_091701/model_a_candidate_cells.geojson",
+      "bytes": 202138,
+      "sha256": "44937d6691840214a1b578f76d1f4251fb01ef19580cd7c52fd346afc3308dd4",
+      "rows": 281,
       "columns": [
         "candidate_id",
         "cell_binary_tif_path",
